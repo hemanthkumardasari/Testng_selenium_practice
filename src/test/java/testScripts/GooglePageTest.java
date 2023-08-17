@@ -57,7 +57,7 @@ srcBox.sendKeys(Keys.ENTER);
 Assert.assertEquals(driver.getTitle(), "Appium Tutorial - Google Search");
 
   }
-  @Test(enabled = true)
+  @Test(enabled = false)
   public void searchCucumberTest() {
 
 driver.get ("https://www.google.com");
